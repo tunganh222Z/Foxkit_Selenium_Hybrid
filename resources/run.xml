@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite parallel = "false" name="Foxkit">
+
+    <listeners>
+        <listener class-name="commons.MethodListener"/>
+        <listener class-name="reportConfig.AllureTestListener"/>
+    </listeners>
+
+    <parameter name="browser" value="edge"/>
+    <parameter name="browserProfile" value="Default"/>
+    <parameter name="url" value="https://admin.shopify.com/store/test-foxapps-staging/apps/minimog-rc-app/power"/>
+
+    <test name="Run on Firefox" preserve-order="true">
+        <classes>
+            <class name="com.foxkit.CountdownTimer"/>
+        </classes>
+    </test>
+
+</suite>

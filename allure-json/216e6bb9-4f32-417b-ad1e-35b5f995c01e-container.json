@@ -1,0 +1,1 @@
+{"uuid":"216e6bb9-4f32-417b-ad1e-35b5f995c01e","name":"Foxkit","children":["81a27582-1eff-418f-bada-85753e3cb3bc"],"befores":[{"name":"deleteFileInReport","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1733189550916,"stop":1733189550930}],"afters":[],"start":1733189550883,"stop":1733189584769}
